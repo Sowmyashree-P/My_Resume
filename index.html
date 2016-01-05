@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Assignments Details</title>
+        <link href="lib/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-dataTables.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="lib/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-dataTables.min.js"></script>
+        <script src="lib/highcharts.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+	<body style="background-color:black;">
+        <!--Add your own HTML!-->   
+        <div class="container">
+          <h2>My Profile</h2>
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+            <li><a data-toggle="tab" href="#menu1">Projects</a></li>
+            <li><a data-toggle="tab" href="#menu2">Technologies</a></li>
+            <li><a data-toggle="tab" href="#menu3">Report</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+              <h4>My work and education profile</h4>
+              <div id="container" style="position:absolute;width:700px;height:300px;"></div>
+              <div id="edudetdiv" style="float:right;">
+                  <div><button>EDUCATIONAL DETAILS</button></div>
+                  <div id="edudetspan" class="CSSTable"  style="display:none;">
+                      <table>
+                        <tr><td>Class</td><td >Percentage</td></tr>
+                        <tr><td>S.S.L.C</td><td>88%</td></tr>
+                        <tr><td>P.U.C</td><td>89%</td></tr>
+                        <tr><td >B.E.</td><td>75%</td></tr>
+                    </table>
+                </div>
+                <div class="address" style="display:none;">
+                    <h3>My Current Address</h3>
+                    <pre>
+                    Balaji Elite
+                    Balaji Enclave
+                    Doddanekundi extn. Mahadevapura
+                    Near marathahalli outer ring road
+                    Bangalore 
+                    </pre>
+                </div>
+              </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+              <h3>Project Details</h3>
+              <div id="accordion">
+                  <h3>Hive Project(Current Project)</h3>
+                  <div style="height:100px;">
+                      <p><label>Technologies Used :</label> HTML5,CSS3,Bootstrap,Javascript,JQuery (datatable and highchart javascript libraries)<br />
+                          <label>Detail :</label> This web tool helps to visualize the employee details for the top managemnt. Such as report like projects details, budget vs project graph, timesheet etc.<br />
+                          <label>My Role:</label> Working from 5 months as a front end developer.
+                    </p>
+                  </div>
+                  <h3>Seed Project</h3>
+                  <div>
+                    <p><label>Technologies Used</label> : HTML5,CSS3,AngularJS,Javascript,JQuery <br />
+                       <label>Detail</label> : This web tool helps to explain the new product features and benefits to the retail sales executives.<br />
+                       <label>My Role</label>: Worked as a UI developer for 5-6 months.
+                    </p>
+                  </div>
+                  <h3>SurveyApp</h3>
+                  <div>
+                      <p><label>Technologies Used :</label> JavaScript,JQuery,SenchaTouch,Phonegap,php,Android,HTML,CSS<br />
+                        <label>Detail : </label>Using this app, user can take gps point and photo , which automatically uploads into company map. <br />
+                          <label>My Role: </label>I used sencha for UI design and CORDOVA (PHONEGAP) for CAMERA interface and FILE handling. Meanwhile the  uploading section is done in PHP. Worked individually in this project for 1 year
+                    </p>
+                  </div>
+                  <h3>VidiPoi Tool</h3>
+                  <div>
+                      <p><label>Technologies Used :</label> Javascript,JQuery,OpenLayers,PHP,Postgresql<br />
+                          <label>Detail : </label>This tool helps to add landmarks in a map and edit them. Also Vidipoi tool fetches survey points from database. This tool is also used to upload and edit photos of the landmarks. It is used to download CSV files of already existing landmarks. <br />
+                          <label>My Role:</label> Developed individually this tool . Duration is 1 year including training period
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <h3>Technologies I used</h3>
+              <div class="container">
+                  <br>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                      <li data-target="#myCarousel" data-slide-to="4"></li>
+                      <li data-target="#myCarousel" data-slide-to="5"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="inner_item_div row">
+                            <div class="col-md-6" style="width:50%;">JavaScript : is a high-level, dynamic, untyped, and interpreted programming language.
+                            <h4>My Role:</h4> I started my career in writing javascript code. Starting with basics I worked in few javascript libraries too. Like jquery,OpenLayers,Phonegap,Sencha etc. In one of my projects I used to write javascript in object oriented style using prototypes.</div>
+                            <img class="col-md-6" src="images/pic_js.jpg" style="width:100px;height:100px;" />
+                          </div>
+                      </div>
+
+                      <div class="item">
+                          <div class="inner_item_div row">
+                              <div class="col-md-6" style="width:50%;">JQUERY : jQuery is a fast, small, and feature-rich JavaScript library. 
+                              <h4>My Role:</h4> I started learning jquery for DOM traversal.I feel easy to select any dom using jquery. I have used datepicker,datatable,animations etc in jquery.</div>
+                            <img class="col-md-6" src="images/pic_jquery.png" style="width:100px;height:100px;" />
+                          </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="inner_item_div row">
+                            <div class="col-md-6" style="width:50%;">HTML5 : is a markup language used for structuring and presenting content on the World Wide Web. 
+                            <h4>My Role:</h4> Apart from basic static html I have tried geolocation,web storage(local storage and session storage),appcache,page visibility api,canvas etc. in HTML5.</div>
+                            <img class="col-md-6" src="images/pic_html5.png" style="width:100px;height:100px;" />
+                          </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="inner_item_div row">
+                            <div class="col-md-6" style="width:50%;">CSS3 : CSS3 is the latest standard for CSS (Cascading Style Sheets)
+                                <h4>My Role:</h4> Apart from basic css style I tried media queries for responsive web desigining. Tried less for some level.Need to study more.</div>
+                            <img class="col-md-6" src="images/pic_css3.jpg" style="width:100px;height:100px;" />
+                          </div>
+                      </div>
+                        
+                        <div class="item">
+                        <div class="inner_item_div row">
+                            <div class="col-md-6" style="width:50%;">AngularJS : AngularJS is a javascript framework.
+                            It extends HTML with new attributes.AngularJS is perfect for Single Page Applications (SPAs)
+                            <h4>My Role:</h4> I was developing single page application using angular for 5-6 months.In that time I experimented with directivs,controllers,services and ui-router. But need to experiment more on angularJS framework.</div>
+                            <img class="col-md-6" src="images/pic_angular.jpg" style="width:100px;height:100px;" />
+                        </div>
+                      </div>
+                        
+                        <div class="item">
+                        <div class="inner_item_div row">
+                            <div class="col-md-6" style="width:50%;">Bootstrap : Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.
+                            <h4>My Role:</h4> I am using bootstrap in my current project for page navigation , classes like col-md-6 ,pull right etc. Using these we can build responsive web page easily.</div>
+                            <img class="col-md-6" src="images/pic_bootstrap.jpg" style="width:100px;height:100px;" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+              <h3>My Assignments</h3>
+              <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Duration</th>
+                <th>Technologies</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Project Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Duration</th>
+                <th>Technologies</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Hive</td>
+                <td>Consultant</td>
+                <td>Capgemini</td>
+                <td>5 months to present</td>
+                <td>Javascript,JQuery,Bootstrap</td>
+            </tr>
+            <tr>
+                <td>Seed</td>
+                <td>Senior System Engineer</td>
+                <td>Infosys</td>
+                <td>6 months</td>
+                <td>AngularJS</td>
+            </tr>
+            <tr>
+                <td>SurveyApp</td>
+                <td>Software Engineer</td>
+                <td>Vidteq</td>
+                <td>1 year</td>
+                <td>Phonegap,php,sencha</td>
+            </tr>
+            <tr>
+                <td>VidiPoi Tool</td>
+                <td>Software Engineer</td>
+                <td>Vidteq</td>
+                <td>1 year</td>
+                <td>HTML,CSS,JavaScript,JQuery</td>
+            </tr>
+            <tr>
+                <td>Training</td>
+                <td>Software Engineer</td>
+                <td>Vidteq</td>
+                <td>8-9 months</td>
+                <td>HTML,CSS,JavaScript,JQuery</td>
+            </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+        
+	</body>
+</html>
